@@ -1,0 +1,16 @@
+Source: tcpdstat
+Section: net
+Priority: extra
+Maintainer: David Francos Cuartero (XayOn) <xayon@xayon.net>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://github.com/netik/tcpdstat
+#Vcs-Git: git://git.debian.org/collab-maint/tcpdstat.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/tcpdstat.git;a=summary
+
+Package: tcpdstat
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Tcp statistics
+ This is a tcpdstat package for providing airoscript-ng
+ reporting system
